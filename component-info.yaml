@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-app
+  description: sample-app
+  annotations: 
+    github.com/project-slug: josephbarnett/sample-go
+    backstage.io/github-actions-id: josephbarnett/sample-go
+spec:
+  type: service
+  lifecycle: experimental
+  owner: josephbarnett
